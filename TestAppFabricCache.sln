@@ -5,17 +5,6 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppFabricCache", "TestAppFabricCache\TestAppFabricCache.csproj", "{59699B7E-D702-47FF-9E29-7B1885AD7BA3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{1C618632-B007-4665-BB3F-B01BF4094F66}"
-	ProjectSection(SolutionItems) = preProject
-		TestAppFabricCache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll = TestAppFabricCache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
-		TestAppFabricCache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll = TestAppFabricCache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
-		TestAppFabricCache\bin\Debug\Microsoft.WindowsFabric.Common.dll = TestAppFabricCache\bin\Debug\Microsoft.WindowsFabric.Common.dll
-		TestAppFabricCache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll = TestAppFabricCache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
-		TestAppFabricCache\bin\Debug\PingCache.exe = TestAppFabricCache\bin\Debug\PingCache.exe
-		TestAppFabricCache\bin\Debug\PingCache.exe.config = TestAppFabricCache\bin\Debug\PingCache.exe.config
-		TestAppFabricCache\bin\Debug\PingCache.pdb = TestAppFabricCache\bin\Debug\PingCache.pdb
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

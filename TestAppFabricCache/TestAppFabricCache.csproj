@@ -56,7 +56,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Build\PingCache.exe.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Build\Microsoft.ApplicationServer.Caching.Client.dll" />
+    <Content Include="Build\Microsoft.ApplicationServer.Caching.Core.dll" />
+    <Content Include="Build\Microsoft.WindowsFabric.Common.dll" />
+    <Content Include="Build\Microsoft.WindowsFabric.Data.Common.dll" />
+    <Content Include="Build\PingCache.exe" />
+    <Content Include="Build\PingCache.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
