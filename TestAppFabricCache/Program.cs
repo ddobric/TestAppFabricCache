@@ -63,7 +63,7 @@ namespace TestAppFabricCache
             Console.WriteLine(ex.GetType().Name);
             Console.WriteLine(ex.Message);
             if (ex.InnerException != null)
-                trace(ex.InnerException);
+                trace(ex.InnerException); 
         }
     }
 }
