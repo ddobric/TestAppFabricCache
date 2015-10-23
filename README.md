@@ -19,4 +19,5 @@ pingcache default daenet cool
 This is testing code:
 
 DataCache mycache = dcf.GetCache(cachename);
+
 mycache.Add(key, val);
