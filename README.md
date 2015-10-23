@@ -5,7 +5,7 @@ Usage:
 
 Following command is used to test cache:
 
-pingcache <cachename> <key> <value>
+pingcache cachename key value
 
 cachename: The name of the cache, which should be tested.
 key: The key which will be used to insert the item in the cache.
